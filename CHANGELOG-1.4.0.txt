@@ -1,0 +1,15 @@
+ASERVER 1.4.0 — PAKET ASERVER SAJA
+==================================
+
+- Paket ini hanya berisi proyek ASERVER. Tidak ada source atau APK aplikasi target lain yang diubah atau disertakan.
+- Semua keterangan yang sebelumnya menyebut aplikasi target tertentu diganti menjadi pengaturan generik.
+- Default pemeriksaan lokal menggunakan http://127.0.0.1:8080/ dan dapat diedit sesuai host, port, serta path server pengguna.
+- Pemilih aplikasi bersifat opsional: layanan penjagaan ASERVER dapat dimulai tanpa memilih aplikasi lain.
+- Pemilih aplikasi mendukung pilihan beberapa aplikasi, membuka aplikasi, dan membuka halaman Info Aplikasi Android.
+- Status monitor lokal dan publik dinyatakan kedaluwarsa bila tidak diperbarui selama 45 detik.
+- Notifikasi tidak lagi mempertahankan label ONLINE lama ketika hasil pemeriksaan sudah kedaluwarsa.
+- Perlindungan terhadap RejectedExecutionException ditambahkan ketika service berhenti saat pemeriksaan sedang dimulai.
+- Versi proyek dinaikkan menjadi 1.4.0 / versionCode 5.
+
+Batasan penting:
+ASERVER menjaga service ASERVER sendiri, bukan mengunci proses aplikasi target. Android tidak memberikan API normal untuk memaksa proses APK lain terus hidup. Untuk target, gunakan pengaturan baterai/background pada Android dan foreground service milik APK target.

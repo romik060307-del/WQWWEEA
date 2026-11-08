@@ -1,0 +1,10 @@
+VIVO TEST CHECKLIST
+1. Install ASERVER 1.5.1, OHLI 3.6.21 and the matching RKM Tunnel Lite build.
+2. For EACH app: Android App info > Battery > allow background activity / unrestricted if offered.
+3. In iManager Autostart, allow each app if the device exposes that option.
+4. In battery optimization, exclude each app.
+5. Start OHLI from its own screen and confirm the persistent notification + local URL work.
+6. Start RKM Tunnel Lite from its own screen and confirm its public URL works.
+7. Turn screen off for 10 minutes and test from a laptop.
+8. Record which endpoint fails first and whether the app notification remains.
+IMPORTANT: ASERVER cannot relaunch other apps' foreground services from background. RKM source integration is still required for an in-app tunnel watchdog.

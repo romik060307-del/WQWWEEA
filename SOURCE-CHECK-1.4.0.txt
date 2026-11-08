@@ -1,0 +1,19 @@
+PASS 1: versi ASERVER 1.4.0 / versionCode 5
+PASS 2: foreground service specialUse dideklarasikan
+PASS 3: izin dan alasan specialUse tersedia
+PASS 4: CPU wakelock digunakan oleh service
+PASS 5: opsi Wi-Fi lock tersedia
+PASS 6: service sticky dan pemulihan boot tersedia
+PASS 7: penjagaan ASERVER dapat dimulai tanpa aplikasi target
+PASS 8: aksi notifikasi cek dan hentikan tersedia
+PASS 9: health check dijalankan tiap 15 detik
+PASS 10: hanya respons HTTP 2xx dihitung online
+PASS 11: status lokal dan tunnel disimpan terpisah
+PASS 12: UI menyediakan dua alamat monitor
+PASS 13: status dan permintaan pengecualian baterai nyata
+PASS 14: endpoint default memakai alamat port lokal yang dapat diedit
+PASS 15: hasil monitor lama ditandai kedaluwarsa di layar dan notifikasi
+PASS 16: pemilih aplikasi target bersifat opsional dan generik
+PASS 17: workflow membangun dan mengunggah APK
+
+Lulus 17 pemeriksaan statis ASERVER 1.4.0. Build Gradle penuh dan tes perangkat nyata tetap wajib.

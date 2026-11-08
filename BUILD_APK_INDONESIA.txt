@@ -1,0 +1,9 @@
+BUILD APK ASERVER v1.5.1
+
+1. Ekstrak seluruh isi ZIP ini ke root repository GitHub.
+2. Pastikan workflow ada di .github/workflows/android.yml.
+3. Buka GitHub Actions.
+4. Jalankan "Build ASERVER APK v1.5.1" dengan Run workflow.
+5. Unduh artifact ASERVER-debug-APK-v1.5.1 jika job berhasil.
+
+Jangan unggah ZIP lama bersamaan dengan source hasil ekstrak karena workflow mencari settings.gradle pertama yang ditemukan.

@@ -1,0 +1,4 @@
+ASERVER 1.5.0
+- Added Vivo-specific background/autostart setup guide in-app.
+- Clarifies target APKs must each be allowed to run in background.
+- Does not claim a companion app can force-start other apps from background.

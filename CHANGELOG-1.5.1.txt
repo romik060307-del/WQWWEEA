@@ -1,0 +1,13 @@
+ASERVER v1.5.1 — PERBAIKAN BUILD
+
+Perbaikan utama:
+- GuardService memakai android.content.SharedPreferences untuk hasil AppPrefs.get(Context).
+- Mengatasi 8 error javac terkait AppPrefs/SharedPreferences pada health monitor.
+- Build workflow memakai Android SDK modern tanpa paket legacy "tools".
+- VersionName 1.5.1 dan versionCode 7.
+- Pemeriksa source menambahkan tes tipe SharedPreferences.
+
+Catatan:
+- Ini memperbaiki error kompilasi yang terlihat pada log GitHub Actions.
+- Build Gradle penuh perlu dijalankan kembali melalui GitHub Actions untuk mengonfirmasi APK berhasil dibuat.
+- Perbaikan compile tidak menjamin Android Vivo mempertahankan service saat layar mati; itu perlu tes perangkat dan pengaturan background/autostart.

@@ -1,0 +1,9 @@
+ASERVER v1.5.1 — SOURCE CHECK
+
+18 pemeriksaan statis lulus melalui tools/source-verify.mjs.
+- Tipe SharedPreferences pada GuardService sudah sesuai dengan AppPrefs.get(Context).
+- Error javac dari log pengguna (8 error) telah diperbaiki pada source.
+- Endpoint lokal dan tunnel memakai SharedPreferences secara konsisten.
+- Android SDK workflow tidak memakai paket legacy tools.
+
+Batas verifikasi: Android SDK/Gradle tidak tersedia pada lingkungan pengeditan ini. Kompilasi penuh harus dikonfirmasi lewat GitHub Actions.

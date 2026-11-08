@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ASERVER</string>
+    <string name="guard_service_description">Menjaga layanan pendamping server yang diaktifkan sendiri oleh pengguna.</string>
+</resources>
